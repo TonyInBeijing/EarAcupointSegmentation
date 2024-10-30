@@ -1,5 +1,6 @@
 from data_preprocessing import prepare_annotations
 from model_training import train_model
+import pandas as pd
 import os
 
 def main():

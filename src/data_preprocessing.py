@@ -2,6 +2,7 @@ import os
 import json
 import numpy as np
 import pandas as pd
+import tensorflow as tf
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 
 def extract_annotations(json_dir):

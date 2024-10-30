@@ -1,5 +1,6 @@
 from tensorflow.keras import layers, models
 import tensorflow as tf
+import pandas as pd
 from data_preprocessing import EarAcupointDataset
 
 def unet_model(input_shape=(128, 128, 3), num_classes=1):
